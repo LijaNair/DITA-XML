@@ -1,0 +1,189 @@
+openapi: 3.0.4
+info:
+  title: Weather API Documentation
+  description: |-
+    The Weather API provides real-time weather data based on ZIP codes across
+    the United States. With a simple GET request, you can retrieve temperature,
+    condition, humidity, wind speed, and more. It's perfect for apps that need
+    quick, location-based forecasts.
+
+    This API documentation covers:
+    - How to authenticate and access the API
+    - Supported request parameters and query options
+    - API endpoints and examples
+    - Sample responses and data structure
+    - Usage with tools like Postman
+    - Environment setup using API keys
+
+    Authenticate and access the API - Visit OpenWeatherMap and sign in or sign up. After signing in, click your profile name and select "My API keys." Copy an existing key or click "Generate" to create a new one. Optionally, name your key for easy identification (e.g., weather-app-key)..
+
+    This project is part of a technical portfolio demonstrating skills in API documentation and testing.
+
+    Some useful links:
+    - [WeatherAPI Website](https://openweathermap.org/api)
+    - [Current Weather Data](https://openweathermap.org/current)  
+  version: 1.0.12
+
+servers:
+  - url: https://api.openweathermap.org/data/2.5
+externalDocs:
+  url: https://winter-escape-823429.postman.co/workspace/76b1f25f-4fef-427b-88b1-7a7e1b115e64/request/14382568-4fc4a0bc-f00d-41e9-9f94-799c9de9719d
+  description: URL to access the collection
+tags:
+  - name: weather
+    description: Everything about weather
+  
+paths:
+ /weather:
+   get:
+    summary: Get weather information
+    description: Retrieve weather information 
+    tags:
+      - weather  
+    
+    parameters:
+      - name: zip
+        description: zipcode of the "country"
+        required: true
+        in: query
+        schema:
+          type: integer
+          description: Enter the zipcode  
+      - name: units
+        in: query
+        description: units of measurement
+        required: true
+        schema:
+          type: string
+          enum: [standard, metric, imperial]
+          default: standard
+      - name: apiKey
+        in: query
+        required: true
+        schema:
+          type: string
+    responses:
+      "200":
+         description: successfuly returned weather details
+         content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  coord:
+                    type: object
+                    description: Geographical coordinates of the location
+                    properties:
+                      lon:
+                        type: number
+                        description: Longitude of the location
+                      lat:
+                        type: number
+                        description: Latitude of the location
+                  weather:
+                    type: array
+                    description: Weather conditions
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          description: Weather condition ID
+                        main:
+                          type: string
+                          description: Main weather condition (e.g., Clear, Rain)
+                        description:
+                          type: string
+                          description: A more detailed description of the weather condition
+                        icon:
+                          type: string
+                          description: Weather icon code
+                  base:
+                    type: string
+                    description: The name of the station for the data
+                  main:
+                    type: object
+                    description: Main weather data such as temperature and pressure
+                    properties:
+                      temp:
+                        type: number
+                        description: Current temperature
+                      feels_like:
+                        type: number
+                        description: The perceived temperature
+                      temp_min:
+                        type: number
+                        description: Minimum temperature at the moment
+                      temp_max:
+                        type: number
+                        description: Maximum temperature at the moment
+                      pressure:
+                        type: integer
+                        description: Atmospheric pressure
+                      humidity:
+                        type: integer
+                        description: Humidity percentage
+                      sea_level:
+                        type: integer
+                        description: Atmospheric pressure at sea level
+                      grnd_level:
+                        type: integer
+                        description: Atmospheric pressure at ground level
+                  visibility:
+                    type: integer
+                    description: Visibility in meters
+                  wind:
+                    type: object
+                    description: Wind data
+                    properties:
+                      speed:
+                        type: number
+                        description: Wind speed in meters per second
+                      deg:
+                        type: integer
+                        description: Wind direction in degrees
+                  clouds:
+                    type: object
+                    description: Cloud coverage
+                    properties:
+                      all:
+                        type: integer
+                        description: Cloud percentage
+                  dt:
+                    type: integer
+                    description: Time of data calculation in Unix timestamp
+                  sys:
+                    type: object
+                    description: System data
+                    properties:
+                      type:
+                        type: integer
+                        description: System ID
+                      id:
+                        type: integer
+                        description: System internal ID
+                      country:
+                        type: string
+                        description: Country code (e.g., "US" for the United States)
+                      sunrise:
+                        type: integer
+                        description: Sunrise time in Unix timestamp
+                      sunset:
+                        type: integer
+                        description: Sunset time in Unix timestamp
+                  timezone:
+                    type: integer
+                    description: Timezone offset from UTC
+                  id:
+                    type: integer
+                    description: Location ID 
+                  name:
+                    type: string
+                    description: Name of the city or location
+                  cod:
+                    type: integer
+                    description: Response code 
+
+      "400":
+        description: No date found. Nothing to geocode
+
