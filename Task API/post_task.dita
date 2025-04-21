@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="post_task">
+    <title>POST /task</title>
+    <conbody>
+        <p>The <codeph>POST /tasks</codeph> endpoint allows clients to create new tasks in the task
+            management system. This endpoint is publicly accessible and does not require
+            authentication.</p>
+        <p>A task represents a unit of work, including attributes such as title, description, due
+            date, status, and priority.</p>
+        <p>Developers can use this endpoint to add tasks dynamically to a user's list or queue.</p>
+        <section id="section_sd2_2jq_bfc">
+            <title>Usecases</title>
+            <ul id="ul_znv_kjq_bfc">
+                <li>
+                    <p>User opens a to-do application. </p>
+                </li>
+                <li>
+                    <p>They enter task details such as the title, due date, and priority.</p>
+                </li>
+            </ul>
+            <ul id="ul_hnh_wjq_bfc">
+                <li>
+                    <p>The application sends a <codeph>POST</codeph> request to <codeph>/tasks
+                        </codeph>with the task data.</p>
+                </li>
+            </ul>
+            <ul id="ul_gp5_xjq_bfc">
+                <li>The server responds with 201 Created status and the created task details</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>
