@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="getting_started">
+    <title>Getting Started: Obtain an API Key</title>
+    <shortdesc>Follow these steps to get your API key from OpenWeatherMap for use with the Weather
+        API.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="https://home.openweathermap.org/users/sign_in" format="html"
+                        scope="external">Openweathermap</xref> website.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <b>Sign in to your account.</b></cmd>
+                <info>
+                    <fig id="fig_mbx_21l_bfc">
+                        <title>Postman Login Screen</title>
+                        <image href="../Images/Postman_Login_Screen.PNG" id="image_nbx_21l_bfc"/>
+                    </fig>
+                    <note id="note_jqt_f1l_bfc">If you don’t have an account, click &lt;b>Create an
+                        Account&lt;/b> and register.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Once signed in, click on your profile name in the top menu.</cmd>
+            </step>
+            <step>
+                <cmd>From the dropdown, select &lt;b>My API keys&lt;/b>.</cmd>
+                <info>
+                    <fig id="fig_fzb_qxk_bfc">
+                        <title>My API Key</title>
+                        <image href="../Images/Postman_APIKey.PNG" id="image_gzb_qxk_bfc"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>You’ll see your existing API keys listed. Do one of the following:</cmd>
+                <substeps id="substeps_qwy_zxk_bfc">
+                    <substep>
+                        <cmd>Copy an existing key, or</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Generate</b> to create a new API key. Copy the new API
+                            Key.</cmd>
+                        <info>
+                            <note id="note_i1p_r1l_bfc" type="important">These API keys are secret
+                                and should not be shared with anyone. Treat them like
+                                passwords.</note>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Optionally, give your API key a name for easy identification.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
