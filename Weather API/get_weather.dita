@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="get_weather">
+    <title>GET  /Weather</title>
+    <conbody>
+        <p>The <codeph>GET /Weather </codeph>endpoint allows users to retrieve current weather data
+            for any location on Earth. It aggregates real-time data from global and local weather
+            models, satellites, radars, and an extensive network of weather stations. The data is
+            available in multiple formats, including JSON, XML, and HTML.</p>
+        <p>This endpoint is designed to provide detailed weather information such as temperature,
+            humidity, wind speed and direction, atmospheric pressure, cloud coverage, and
+            visibility.</p>
+        <section id="section_ozq_52l_bfc">
+            <title>Usecases</title>
+            <p>
+                <ul id="ul_obv_w2l_bfc">
+                    <li>
+                        <p>Displaying weather information in travel and tourism apps</p>
+                    </li>
+                    <li>
+                        <p>Powering smart home devices to react to local weather conditions</p>
+                    </li>
+                    <li>
+                        <p>Building weather widgets or dashboards for websites or mobile apps</p>
+                    </li>
+                </ul>
+            </p>
+            <p/>
+        </section>
+    </conbody>
+</concept>
