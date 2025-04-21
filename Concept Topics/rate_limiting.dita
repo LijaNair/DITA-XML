@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rate_limiting">
+    <title>Rate Limiting</title>
+    <conbody>
+        <p>The API enforces rate limiting. It restricts the number of API requests a client can make
+            within a specified time period. To maintain server performance and ensure fair access
+            for all users, this API limits the number of requests based on the user’s subscription
+            level. If the limit is exceeded, the API returns a <codeph>429 Too Many
+                Requests</codeph> error. This helps protect the API from abuse and overload.<ol
+                id="ol_ljp_2bl_bfc">
+                <li>Limit: 60 requests per minute.</li>
+                <li>Headers:<ul id="ul_ar3_3bl_bfc">
+                        <li>
+                            <p><codeph>X-RateLimit-Limit</codeph>: Max requests allowed</p>
+                        </li>
+                        <li>
+                            <p><codeph>X-RateLimit-Remaining</codeph>: Requests left</p>
+                        </li>
+                        <li>
+                            <p><codeph>Retry-After</codeph>: Time to wait before retrying after
+                                hitting the limit</p>
+                        </li>
+                    </ul></li>
+                <li>
+                    <p>On exceeding limit:</p>
+                    <codeblock id="codeblock_irk_tbl_bfc">HTTP 429 Too Many Requests</codeblock>
+                </li>
+            </ol></p>
+    </conbody>
+</concept>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="pagination">
+    <title>Pagination</title>
+    <conbody>
+        <p>Pagination refers to dividing a large set of results into smaller, manageable chunks or
+            "pages." When fetching data like task lists or weather logs, pagination prevents
+            overloading the client and server with too much data at once. It also helps improve
+            performance and allows users to navigate through data efficiently using
+                <codeph>page</codeph> and <codeph>limit</codeph> parameters.</p>
+        <p>For endpoints returning large datasets (e.g., <codeph>/tasks</codeph>):</p>
+        <ul id="ul_bxf_1cl_bfc">
+            <li>
+                <p>Use query parameters:<ul id="ul_zzn_bcl_bfc">
+                        <li>
+                            <p><codeph>page</codeph>: Page number (default: 1)</p>
+                        </li>
+                        <li>
+                            <p><codeph>limit</codeph>: Items per page (default: 10, max: 100)</p>
+                        </li>
+                    </ul></p>
+            </li>
+        </ul>
+        <p>Example<codeblock id="codeblock_r4y_2cl_bfc">GET /tasks?page=2&amp;limit=20</codeblock></p>
+    </conbody>
+</concept>

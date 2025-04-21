@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction">
+    <title>Introduction</title>
+    <conbody>
+        <p>Welcome to the <b>Weather &amp; Task API</b> documentation. This API provides two
+            powerful sets of endpoints designed to help developers integrate weather data and task
+            management capabilities into their applications with ease. </p>
+        <p>The Weather &amp; Task API provides two sets of functionalities</p>
+        <ol id="ol_jts_btk_bfc">
+            <li>A simple /weather endpoint for retrieving real-time weather by city. It’s ideal for
+                apps that need to display live temperature, weather descriptions, or customize
+                content based on location.</li>
+            <li>A /tasks endpoints offer a full-featured task management system. Developers can: <ul
+                    id="ul_n3x_q5k_bfc">
+                    <li>
+                        <p>Create, read, update, and delete tasks (CRUD)</p>
+                    </li>
+                    <li>
+                        <p>Retrieve paginated task lists</p>
+                    </li>
+                    <li>
+                        <p>Perform partial updates (PATCH)</p>
+                    </li>
+                    <li>
+                        <p>Use query parameters for flexible data fetching</p>
+                    </li>
+                    <li>
+                        <p>Handle rate limits gracefully using standard HTTP headers</p>
+                    </li>
+                </ul></li>
+        </ol>
+        <p>This documentation is your complete guide to integrating and using the Weather &amp; Task
+            API efficiently. Whether you’re building a weather widget or a productivity tool, you’ll
+            find all the examples, parameters, and error handling you need to succeed.</p>
+    </conbody>
+</concept>

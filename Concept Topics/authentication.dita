@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="authentication">
+    <title>Authentication</title>
+    <conbody>
+        <p>Authentication is the process of verifying the identity of a client before granting
+            access to the API. </p>
+        <p>This API uses an API key to authenticate requests. Including the correct API key in your
+            request headers is required to access protected endpoints. It ensures that only
+            authorized users can use the service and helps track usage per user.</p>
+        <p>RRefer to the <b><xref href="../Task%20Topics/getting_started.dita">Getting
+                    Started</xref></b> section to learn how to obtain your API key.</p>
+    </conbody>
+</concept>
