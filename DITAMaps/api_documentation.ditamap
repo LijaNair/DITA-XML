@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>API Documentation</title>
+    <topicref href="../Concept%20Topics/introduction.dita">
+        <topicref href="../Task%20Topics/getting_started.dita"/>
+        <topicref href="../Concept%20Topics/authentication.dita"/>
+        <topicref href="../Concept%20Topics/pagination.dita"/>
+        <topicref href="../Concept%20Topics/rate_limiting.dita"/>
+    </topicref>
+    <topicref href="../Weather%20API/get_weather.dita">
+        <topicref href="../Weather%20API/how_to_get_current_weather_using_the_weather_endpoint.dita"/>
+        <topicref href="../Weather%20API/api_response_fields.dita"/>
+    </topicref>
+</map>
