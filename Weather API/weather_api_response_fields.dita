@@ -1,155 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="api_response_fields">
-    <title>Response fields</title>
+    <title>GET Weather Response Fields</title>
     <refbody><section>
-        <title>Response Field Descriptions</title>
-        <simpletable>
-            <sthead>
-                <stentry>Field</stentry>
-                <stentry>Description</stentry>
-            </sthead>
-            
-            <strow>
-                <stentry>coord.lon</stentry>
-                <stentry>Longitude of the location</stentry>
-            </strow>
-            <strow>
-                <stentry>coord.lat</stentry>
-                <stentry>Latitude of the location</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>weather.id</stentry>
-                <stentry>Weather condition ID</stentry>
-            </strow>
-            <strow>
-                <stentry>weather.main</stentry>
-                <stentry>Group of weather parameters (Rain, Snow, Clouds, etc.)</stentry>
-            </strow>
-            <strow>
-                <stentry>weather.description</stentry>
-                <stentry>Detailed description of the weather condition</stentry>
-            </strow>
-            <strow>
-                <stentry>weather.icon</stentry>
-                <stentry>Weather icon ID</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>base</stentry>
-                <stentry>Internal parameter</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>main.temp</stentry>
-                <stentry>Temperature. Default: Kelvin. Metric: Celsius. Imperial: Fahrenheit</stentry>
-            </strow>
-            <strow>
-                <stentry>main.feels_like</stentry>
-                <stentry>Perceived temperature. Same units as <codeph>main.temp</codeph></stentry>
-            </strow>
-            <strow>
-                <stentry>main.pressure</stentry>
-                <stentry>Atmospheric pressure (hPa)</stentry>
-            </strow>
-            <strow>
-                <stentry>main.humidity</stentry>
-                <stentry>Humidity in percentage (%)</stentry>
-            </strow>
-            <strow>
-                <stentry>main.temp_min</stentry>
-                <stentry>Minimum observed temperature. Same units as <codeph>main.temp</codeph></stentry>
-            </strow>
-            <strow>
-                <stentry>main.temp_max</stentry>
-                <stentry>Maximum observed temperature. Same units as <codeph>main.temp</codeph></stentry>
-            </strow>
-            <strow>
-                <stentry>main.sea_level</stentry>
-                <stentry>Atmospheric pressure at sea level (hPa)</stentry>
-            </strow>
-            <strow>
-                <stentry>main.grnd_level</stentry>
-                <stentry>Atmospheric pressure at ground level (hPa)</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>visibility</stentry>
-                <stentry>Visibility in meters. Max value: 10,000</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>wind.speed</stentry>
-                <stentry>Wind speed. Default/Metric: m/s, Imperial: mph</stentry>
-            </strow>
-            <strow>
-                <stentry>wind.deg</stentry>
-                <stentry>Wind direction in degrees (meteorological)</stentry>
-            </strow>
-            <strow>
-                <stentry>wind.gust</stentry>
-                <stentry>Wind gust. Same units as <codeph>wind.speed</codeph></stentry>
-            </strow>
-            
-            <strow>
-                <stentry>clouds.all</stentry>
-                <stentry>Cloudiness in percentage (%)</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>rain.1h</stentry>
-                <stentry>Precipitation in the last hour (mm/h), if available</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>snow.1h</stentry>
-                <stentry>Snowfall in the last hour (mm/h), if available</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>dt</stentry>
-                <stentry>Time of data calculation (UNIX UTC)</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>sys.type</stentry>
-                <stentry>Internal parameter</stentry>
-            </strow>
-            <strow>
-                <stentry>sys.id</stentry>
-                <stentry>Internal parameter</stentry>
-            </strow>
-            <strow>
-                <stentry>sys.country</stentry>
-                <stentry>Country code (e.g., GB, JP)</stentry>
-            </strow>
-            <strow>
-                <stentry>sys.sunrise</stentry>
-                <stentry>Sunrise time (UNIX UTC)</stentry>
-            </strow>
-            <strow>
-                <stentry>sys.sunset</stentry>
-                <stentry>Sunset time (UNIX UTC)</stentry>
-            </strow>
-            
-            <strow>
-                <stentry>timezone</stentry>
-                <stentry>Time shift from UTC in seconds</stentry>
-            </strow>
-            <strow>
-                <stentry>id</stentry>
-                <stentry>City ID</stentry>
-            </strow>
-            <strow>
-                <stentry>name</stentry>
-                <stentry>City name</stentry>
-            </strow>
-            <strow>
-                <stentry>cod</stentry>
-                <stentry>Internal parameter (status code)</stentry>
-            </strow>
-            
-        </simpletable>
+        <simpletable frame="all">
+                <sthead>
+                    <stentry>Field</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry>coord.lon</stentry>
+                    <stentry>Longitude of the location</stentry>
+                </strow>
+                <strow>
+                    <stentry>coord.lat</stentry>
+                    <stentry>Latitude of the location</stentry>
+                </strow>
+                <strow>
+                    <stentry>weather.id</stentry>
+                    <stentry>Weather condition ID</stentry>
+                </strow>
+                <strow>
+                    <stentry>weather.main</stentry>
+                    <stentry>Group of weather parameters (Rain, Snow, Clouds, etc.)</stentry>
+                </strow>
+                <strow>
+                    <stentry>weather.description</stentry>
+                    <stentry>Detailed description of the weather condition</stentry>
+                </strow>
+                <strow>
+                    <stentry>weather.icon</stentry>
+                    <stentry>Weather icon ID</stentry>
+                </strow>
+                <strow>
+                    <stentry>base</stentry>
+                    <stentry>Internal parameter</stentry>
+                </strow>
+                <strow>
+                    <stentry>main.temp</stentry>
+                    <stentry>Temperature. Default: Kelvin. Metric: Celsius. Imperial:
+                        Fahrenheit</stentry>
+                </strow>
+                <strow>
+                    <stentry>main.feels_like</stentry>
+                    <stentry>Perceived temperature. Same units as
+                        <codeph>main.temp</codeph></stentry>
+                </strow>
+                <strow>
+                    <stentry>main.pressure</stentry>
+                    <stentry>Atmospheric pressure (hPa)</stentry>
+                </strow>
+                <strow>
+                    <stentry>main.humidity</stentry>
+                    <stentry>Humidity in percentage (%)</stentry>
+                </strow>
+                <strow>
+                    <stentry>main.temp_min</stentry>
+                    <stentry>Minimum observed temperature. Same units as
+                        <codeph>main.temp</codeph></stentry>
+                </strow>
+                <strow>
+                    <stentry>main.temp_max</stentry>
+                    <stentry>Maximum observed temperature. Same units as
+                        <codeph>main.temp</codeph></stentry>
+                </strow>
+                <strow>
+                    <stentry>main.sea_level</stentry>
+                    <stentry>Atmospheric pressure at sea level (hPa)</stentry>
+                </strow>
+                <strow>
+                    <stentry>main.grnd_level</stentry>
+                    <stentry>Atmospheric pressure at ground level (hPa)</stentry>
+                </strow>
+                <strow>
+                    <stentry>visibility</stentry>
+                    <stentry>Visibility in meters. Max value: 10,000</stentry>
+                </strow>
+                <strow>
+                    <stentry>wind.speed</stentry>
+                    <stentry>Wind speed. Default/Metric: m/s, Imperial: mph</stentry>
+                </strow>
+                <strow>
+                    <stentry>wind.deg</stentry>
+                    <stentry>Wind direction in degrees (meteorological)</stentry>
+                </strow>
+                <strow>
+                    <stentry>wind.gust</stentry>
+                    <stentry>Wind gust. Same units as <codeph>wind.speed</codeph></stentry>
+                </strow>
+                <strow>
+                    <stentry>clouds.all</stentry>
+                    <stentry>Cloudiness in percentage (%)</stentry>
+                </strow>
+                <strow>
+                    <stentry>rain.1h</stentry>
+                    <stentry>Precipitation in the last hour (mm/h), if available</stentry>
+                </strow>
+                <strow>
+                    <stentry>snow.1h</stentry>
+                    <stentry>Snowfall in the last hour (mm/h), if available</stentry>
+                </strow>
+                <strow>
+                    <stentry>dt</stentry>
+                    <stentry>Time of data calculation (UNIX UTC)</stentry>
+                </strow>
+                <strow>
+                    <stentry>sys.type</stentry>
+                    <stentry>Internal parameter</stentry>
+                </strow>
+                <strow>
+                    <stentry>sys.id</stentry>
+                    <stentry>Internal parameter</stentry>
+                </strow>
+                <strow>
+                    <stentry>sys.country</stentry>
+                    <stentry>Country code (e.g., GB, JP)</stentry>
+                </strow>
+                <strow>
+                    <stentry>sys.sunrise</stentry>
+                    <stentry>Sunrise time (UNIX UTC)</stentry>
+                </strow>
+                <strow>
+                    <stentry>sys.sunset</stentry>
+                    <stentry>Sunset time (UNIX UTC)</stentry>
+                </strow>
+                <strow>
+                    <stentry>timezone</stentry>
+                    <stentry>Time shift from UTC in seconds</stentry>
+                </strow>
+                <strow>
+                    <stentry>id</stentry>
+                    <stentry>City ID</stentry>
+                </strow>
+                <strow>
+                    <stentry>name</stentry>
+                    <stentry>City name</stentry>
+                </strow>
+                <strow>
+                    <stentry>cod</stentry>
+                    <stentry>Internal parameter (status code)</stentry>
+                </strow>
+            </simpletable>
     </section> </refbody>
 </reference>
