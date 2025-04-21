@@ -1,8 +1,13 @@
-# Sample API Documentation – Weather API (Generated with Oxygen XML)
+# Sample API Documentation – Weather and Task APIs (Generated with Oxygen XML)
 
 ## Introduction
 
-This repository contains a **sample API documentation project** focused on a **Weather API**. The purpose of this project is to demonstrate how to create well-structured API documentation using **DITA** and **Oxygen XML Editor**. The output of this documentation is a professionally formatted **PDF file**, showcasing all essential elements required in a standard API documentation project.
+This repository contains a **sample API documentation project** focused on:
+
+- A **Weather API** using the **GET** method
+- A **Task API** (hypothetical) using the **POST** method
+
+The purpose of this project is to demonstrate how to create well-structured API documentation using **DITA** and **Oxygen XML Editor**. The output of this documentation is a professionally formatted **PDF file**, showcasing all essential elements required in a standard API documentation project.
 
 ## About This Documentation
 
