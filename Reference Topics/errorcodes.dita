@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="errorcodes">
+    <title>ErrorCodes</title>
+    <shortdesc>This reference provides details of the HTTP error codes that may be returned by the <codeph>GET /weather</codeph> and <codeph>POST /tasks</codeph> endpoints.</shortdesc>
+    <refbody> <section>
+        <title>GET /weather Error Codes</title>
+        <table colsep="1" rowsep="1" frame="all">
+                <tgroup cols="2" align="left">
+                    <colspec colname="code" colwidth="1*"/>
+                    <colspec colname="description" colwidth="3*"/>
+                    <thead>
+                        <row>
+                            <entry>Error Code</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>401 Unauthorized</entry>
+                            <entry>Invalid or missing API key.</entry>
+                        </row>
+                        <row>
+                            <entry>404 Not Found</entry>
+                            <entry>Invalid location parameters.</entry>
+                        </row>
+                        <row>
+                            <entry>429 Too Many Requests</entry>
+                            <entry>Rate limit exceeded. Retry after the time specified in the
+                                    <codeph>Retry-After</codeph> header.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+    </section>
+        
+        <section>
+            <title>POST /tasks Error Codes</title>
+            <table colsep="1" rowsep="1" frame="all">
+                <tgroup cols="2" align="left">
+                    <colspec colname="code" colwidth="1*"/>
+                    <colspec colname="description" colwidth="3*"/>
+                    <thead>
+                        <row>
+                            <entry>Error Code</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>400 Bad Request</entry>
+                            <entry>Returned when required fields are missing or data is
+                                invalid.</entry>
+                        </row>
+                        <row>
+                            <entry>429 Too Many Requests</entry>
+                            <entry>Rate limit exceeded. Retry after the time specified in the
+                                    <codeph>Retry-After</codeph> header.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>
