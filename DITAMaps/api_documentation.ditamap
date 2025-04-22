@@ -7,9 +7,14 @@
         <topicref href="../Concept%20Topics/authentication.dita"/>
         <topicref href="../Concept%20Topics/pagination.dita"/>
         <topicref href="../Concept%20Topics/rate_limiting.dita"/>
+        <topicref href="../Reference%20Topics/errorcodes.dita"/>
     </topicref>
     <topicref href="../Weather%20API/get_weather.dita">
-        <topicref href="../Weather%20API/how_to_get_current_weather_using_the_weather_endpoint.dita"/>
-        <topicref href="../Weather%20API/api_response_fields.dita"/>
+        <topicref href="../Weather%20API/how_to_get_current_weather.dita"/>
+        <topicref href="../Weather%20API/weather_api_response_fields.dita"/>
+    </topicref>
+    <topicref href="../Task%20API/post_task.dita">
+        <topicref href="../Task%20API/how_to_post_task.dita"/>
+        <topicref href="../Task%20API/task_api_response_fields_dita.dita"/>
     </topicref>
 </map>
