@@ -4,55 +4,48 @@
     <title>POST Task Response Fileds</title>
     <refbody><section>
         <table frame="all">
-            <tgroup cols="3">
-                <colspec colname="c1" align="left"/>
-                <colspec colname="c2" align="left"/>
-                <colspec colname="c3" align="left"/>
-                <thead>
-                    <row>
-                        <entry><b>Field</b></entry>
-                        <entry><b>Type</b></entry>
-                        <entry><b>Description</b></entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>id</entry>
-                        <entry>string</entry>
-                        <entry>Unique identifier of the task</entry>
-                    </row>
-                    <row>
-                        <entry>title</entry>
-                        <entry>string</entry>
-                        <entry>Title of the task</entry>
-                    </row>
-                    <row>
-                        <entry>description</entry>
-                        <entry>string</entry>
-                        <entry>Additional details about the task</entry>
-                    </row>
-                    <row>
-                        <entry>due_date</entry>
-                        <entry>string (ISO 8601)</entry>
-                        <entry>Deadline for the task</entry>
-                    </row>
-                    <row>
-                        <entry>priority</entry>
-                        <entry>integer</entry>
-                        <entry>Priority level from 1 (low) to 5 (high)</entry>
-                    </row>
-                    <row>
-                        <entry>status</entry>
-                        <entry>string</entry>
-                        <entry>Current status (e.g., pending, completed)</entry>
-                    </row>
-                    <row>
-                        <entry>created_at</entry>
-                        <entry>string (ISO 8601)</entry>
-                        <entry>Timestamp when the task was created</entry>
-                    </row>
-                </tbody>
-            </tgroup>
+            <tgroup cols="2">
+                    <colspec colname="Type" rowsep="1" colwidth="1*"/>
+                    <colspec colname="Description" colwidth="3*"/>
+                    <thead>
+                        <row rowsep="1">
+                            <entry><b>Type</b></entry>
+                            <entry><b>Description</b></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry colsep="1" rowsep="1">string</entry>
+                            <entry colsep="1" rowsep="1">Unique identifier of the task</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">string</entry>
+                            <entry colsep="1" rowsep="1">Title of the task</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">string</entry>
+                            <entry colsep="1" rowsep="1">Additional details about the task</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">string (ISO 8601)</entry>
+                            <entry colsep="1" rowsep="1">Deadline for the task</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">integer</entry>
+                            <entry colsep="1" rowsep="1">Priority level from 1 (low) to 5
+                                (high)</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">string</entry>
+                            <entry colsep="1" rowsep="1">Current status (e.g., pending,
+                                completed)</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1" rowsep="1">string (ISO 8601)</entry>
+                            <entry colsep="1" rowsep="1">Timestamp when the task was created</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
         </table>
     </section>
     </refbody>
