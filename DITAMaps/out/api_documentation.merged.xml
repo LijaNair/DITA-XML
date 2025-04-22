@@ -6,9 +6,9 @@
 <?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Editor%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
 <map xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/D:/Lija/Portfolio/DITAMaps/api_documentation.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">API Documentation</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
     <title class="- topic/title ">API Documentation</title>
-    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction"><resourceid appid="introduction" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="getting_started"><resourceid appid="getting_started" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Getting Started: Obtain an API Key</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Follow these steps to get your API key from OpenWeatherMap for use with the Weather         API.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="authentication"><resourceid appid="authentication" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Authentication</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="pagination"><resourceid appid="pagination" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Pagination</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="rate_limiting"><resourceid appid="rate_limiting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Rate Limiting</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
-    <topicref is-chapter="true" class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="get_weather"><resourceid appid="get_weather" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">GET  /Weather</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_7" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_get_current_weather_using_the_weather_endpoint"><resourceid appid="how_to_get_current_weather_using_the_weather_endpoint" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">How to Get Current Weather</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_8" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="api_response_fields"><resourceid appid="api_response_fields" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">GET Weather Response Fields</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
-    <topicref is-chapter="true" class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="post_task"><resourceid appid="post_task" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">POST /task</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_10" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_post_task"><resourceid appid="how_to_post_task" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">How to Post Task</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_11" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="task_api_response_fields_dita"><resourceid appid="task_api_response_fields_dita" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">POST Task Response Fileds</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction"><resourceid appid="introduction" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="getting_started"><resourceid appid="getting_started" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Getting Started: Obtain an API Key</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Follow these steps to get your API key from OpenWeatherMap for use with the Weather         API.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="authentication"><resourceid appid="authentication" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Authentication</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="pagination"><resourceid appid="pagination" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Pagination</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="rate_limiting"><resourceid appid="rate_limiting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Rate Limiting</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_6" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="errorcodes"><resourceid appid="errorcodes" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">ErrorCodes</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">This reference provides details of the HTTP error codes that may be returned by the <codeph class="+ topic/ph pr-d/codeph ">GET /weather</codeph> and <codeph class="+ topic/ph pr-d/codeph ">POST /tasks</codeph> endpoints.</shortdesc></topicmeta></topicref></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="get_weather"><resourceid appid="get_weather" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">GET  /Weather</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_8" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_get_current_weather_using_the_weather_endpoint"><resourceid appid="how_to_get_current_weather_using_the_weather_endpoint" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">How to Get Current Weather</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_9" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="api_response_fields"><resourceid appid="api_response_fields" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">GET Weather Response Fields</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_10" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="post_task"><resourceid appid="post_task" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">POST /task</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_11" type="task"><topicmeta class="- map/topicmeta " data-topic-id="how_to_post_task"><resourceid appid="how_to_post_task" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">How to Post Task</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="task_api_response_fields_dita"><resourceid appid="task_api_response_fields_dita" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">POST Task Response Fileds</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
 </opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="introduction" oid="introduction" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction</ph></title>
     <conbody class="- topic/body  concept/conbody ">
@@ -151,7 +151,48 @@
                 </li>
             </ol></p>
     </conbody>
-</concept></concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="get_weather" oid="get_weather" specializations="@props/deliveryTarget">
+</concept><reference class="- topic/topic       reference/reference " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="errorcodes" oid="errorcodes" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">ErrorCodes</ph></title>
+    <shortdesc class="- topic/shortdesc ">This reference provides details of the HTTP error codes that may be returned by the <codeph class="+ topic/ph pr-d/codeph ">GET /weather</codeph> and <codeph class="+ topic/ph pr-d/codeph ">POST /tasks</codeph> endpoints.</shortdesc>
+    <refbody class="- topic/body        reference/refbody "> <section class="- topic/section ">
+        <title class="- topic/title ">GET /weather Error Codes</title>
+        <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+                <tgroup align="left" class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;10:60" xtrf="file:/D:/Lija/Portfolio/Reference%20Topics/errorcodes.dita" style="width:25%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" xtrc="colspec:2;11:67" xtrf="file:/D:/Lija/Portfolio/Reference%20Topics/errorcodes.dita" style="width:75%;"/>
+                    <thead class="- topic/thead ">
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Error Code</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Description</entry></row>
+                    </thead>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">401 Unauthorized</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Invalid or missing API key.</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">404 Not Found</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Invalid location parameters.</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">429 Too Many Requests</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">Rate limit exceeded. Retry after the time specified in the
+                                    <codeph class="+ topic/ph pr-d/codeph ">Retry-After</codeph> header.</entry></row>
+                    </tbody>
+                </tgroup>
+            </table>
+    </section>
+        
+        <section class="- topic/section ">
+            <title class="- topic/title ">POST /tasks Error Codes</title>
+            <table class="- topic/table " colsep="1" frame="all" rowsep="1">
+                <tgroup align="left" class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:3;41:60" xtrf="file:/D:/Lija/Portfolio/Reference%20Topics/errorcodes.dita" style="width:25%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" xtrc="colspec:4;42:67" xtrf="file:/D:/Lija/Portfolio/Reference%20Topics/errorcodes.dita" style="width:75%;"/>
+                    <thead class="- topic/thead ">
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1">Error Code</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1">Description</entry></row>
+                    </thead>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">400 Bad Request</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">Returned when required fields are missing or data is
+                                invalid.</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">429 Too Many Requests</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">Rate limit exceeded. Retry after the time specified in the
+                                    <codeph class="+ topic/ph pr-d/codeph ">Retry-After</codeph> header.</entry></row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference></concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="get_weather" oid="get_weather" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">GET  /Weather</ph></title>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">GET /Weather </codeph>endpoint allows users to retrieve current weather data
@@ -161,10 +202,10 @@
         <p class="- topic/p ">This endpoint is designed to provide detailed weather information such as temperature,
             humidity, wind speed and direction, atmospheric pressure, cloud coverage, and
             visibility.</p>
-        <section class="- topic/section " id="unique_6_Connect_42_section_ozq_52l_bfc" nd:nd-id="section_ozq_52l_bfc">
+        <section class="- topic/section " id="unique_7_Connect_42_section_ozq_52l_bfc" nd:nd-id="section_ozq_52l_bfc">
             <title class="- topic/title ">Usecases</title>
             <p class="- topic/p ">
-                <ul class="- topic/ul " id="unique_6_Connect_42_ul_obv_w2l_bfc" nd:nd-id="ul_obv_w2l_bfc">
+                <ul class="- topic/ul " id="unique_7_Connect_42_ul_obv_w2l_bfc" nd:nd-id="ul_obv_w2l_bfc">
                     <li class="- topic/li ">
                         <p class="- topic/p ">Displaying weather information in travel and tourism apps</p>
                     </li>
@@ -179,7 +220,7 @@
             <p class="- topic/p "/>
         </section>
     </conbody>
-<task class="- topic/topic task/task " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="how_to_get_current_weather_using_the_weather_endpoint" oid="how_to_get_current_weather_using_the_weather_endpoint" specializations="@props/deliveryTarget">
+<task class="- topic/topic task/task " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="how_to_get_current_weather_using_the_weather_endpoint" oid="how_to_get_current_weather_using_the_weather_endpoint" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to Get Current Weather</ph></title>
     <taskbody class="- topic/body task/taskbody ">
         
@@ -204,7 +245,7 @@
             <step class="- topic/li task/step ">
                 <cmd class="- topic/ph task/cmd ">Include the following parameters:</cmd>
                 <info class="- topic/itemgroup task/info ">
-                    <table class="- topic/table " colsep="1" frame="all" id="unique_7_Connect_42_table_b3r_5gl_bfc" nd:nd-id="table_b3r_5gl_bfc" rowsep="1">
+                    <table class="- topic/table " colsep="1" frame="all" id="unique_8_Connect_42_table_b3r_5gl_bfc" nd:nd-id="table_b3r_5gl_bfc" rowsep="1">
                         <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Parameters</ph></title>
                         <tgroup align="left" class="- topic/tgroup " cols="3">
                             <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colsep="1" colwidth="1*" rowsep="1" xtrc="colspec:1;33:45" xtrf="file:/D:/Lija/Portfolio/Weather%20API/how_to_get_current_weather.dita" style="width:33.3333%;"/>
@@ -244,7 +285,7 @@
                 <cmd class="- topic/ph task/cmd ">Execute the request and inspect the response.</cmd>
                 <info class="- topic/itemgroup task/info ">
                     <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve">GET https://api.openweathermap.org/data/2.5/weather?zip=95050&amp;units=imperial</codeblock>
-                    <codeblock class="+ topic/pre pr-d/codeblock " id="unique_7_Connect_42_codeblock_cpy_yhl_bfc" nd:nd-id="codeblock_cpy_yhl_bfc" xml:space="preserve">curl --location --globoff 'https://api.openweathermap.org/data/2.5/weather?zip=95050&amp;units=imperial&amp;appid=••••••'</codeblock>
+                    <codeblock class="+ topic/pre pr-d/codeblock " id="unique_8_Connect_42_codeblock_cpy_yhl_bfc" nd:nd-id="codeblock_cpy_yhl_bfc" xml:space="preserve">curl --location --globoff 'https://api.openweathermap.org/data/2.5/weather?zip=95050&amp;units=imperial&amp;appid=••••••'</codeblock>
                 </info>
             </step>
         </steps>
@@ -308,7 +349,7 @@
             </ul>
         </postreq>
     </taskbody>
-</task><reference class="- topic/topic       reference/reference " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="api_response_fields" oid="api_response_fields" specializations="@props/deliveryTarget">
+</task><reference class="- topic/topic       reference/reference " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="api_response_fields" oid="api_response_fields" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">GET Weather Response Fields</ph></title>
     <refbody class="- topic/body        reference/refbody "><section class="- topic/section ">
         <simpletable class="- topic/simpletable " frame="all">
@@ -354,7 +395,7 @@
                 <strow class="- topic/strow "><stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="33">cod</stentry><stentry class="- topic/stentry " dita-ot:x="2" dita-ot:y="33">Internal parameter (status code)</stentry></strow>
             </simpletable>
     </section> </refbody>
-</reference></concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="post_task" oid="post_task" specializations="@props/deliveryTarget">
+</reference></concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="post_task" oid="post_task" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">POST /task</ph></title>
     <conbody class="- topic/body  concept/conbody ">
         <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">POST /tasks</codeph> endpoint allows clients to create new tasks in the task
@@ -363,9 +404,9 @@
         <p class="- topic/p ">A task represents a unit of work, including attributes such as title, description, due
             date, status, and priority.</p>
         <p class="- topic/p ">Developers can use this endpoint to add tasks dynamically to a user's list or queue.</p>
-        <section class="- topic/section " id="unique_9_Connect_42_section_sd2_2jq_bfc" nd:nd-id="section_sd2_2jq_bfc">
+        <section class="- topic/section " id="unique_10_Connect_42_section_sd2_2jq_bfc" nd:nd-id="section_sd2_2jq_bfc">
             <title class="- topic/title ">Usecases</title>
-            <ul class="- topic/ul " id="unique_9_Connect_42_ul_znv_kjq_bfc" nd:nd-id="ul_znv_kjq_bfc">
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_znv_kjq_bfc" nd:nd-id="ul_znv_kjq_bfc">
                 <li class="- topic/li ">
                     <p class="- topic/p ">User opens a to-do application. </p>
                 </li>
@@ -373,18 +414,18 @@
                     <p class="- topic/p ">They enter task details such as the title, due date, and priority.</p>
                 </li>
             </ul>
-            <ul class="- topic/ul " id="unique_9_Connect_42_ul_hnh_wjq_bfc" nd:nd-id="ul_hnh_wjq_bfc">
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_hnh_wjq_bfc" nd:nd-id="ul_hnh_wjq_bfc">
                 <li class="- topic/li ">
                     <p class="- topic/p ">The application sends a <codeph class="+ topic/ph pr-d/codeph ">POST</codeph> request to <codeph class="+ topic/ph pr-d/codeph ">/tasks
                         </codeph>with the task data.</p>
                 </li>
             </ul>
-            <ul class="- topic/ul " id="unique_9_Connect_42_ul_gp5_xjq_bfc" nd:nd-id="ul_gp5_xjq_bfc">
+            <ul class="- topic/ul " id="unique_10_Connect_42_ul_gp5_xjq_bfc" nd:nd-id="ul_gp5_xjq_bfc">
                 <li class="- topic/li ">The server responds with 201 Created status and the created task details</li>
             </ul>
         </section>
     </conbody>
-<task class="- topic/topic task/task " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="how_to_post_task" oid="how_to_post_task" specializations="@props/deliveryTarget">
+<task class="- topic/topic task/task " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="how_to_post_task" oid="how_to_post_task" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">How to Post Task</ph></title>
     <taskbody class="- topic/body task/taskbody ">
         <context class="- topic/section task/context "> The <codeph class="+ topic/ph pr-d/codeph ">POST /tasks</codeph> endpoint allows you to create a new task by
@@ -402,7 +443,7 @@
                             <li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">description</codeph> – Details about the task (optional)</li>
                             <li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">due_date</codeph> – Due date in ISO 8601 format (optional)</li>
                             <li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">priority</codeph> – An integer from 1 (low) to 5
-                            (high)<codeblock class="+ topic/pre pr-d/codeblock " id="unique_10_Connect_42_codeblock_lfs_llq_bfc" nd:nd-id="codeblock_lfs_llq_bfc" xml:space="preserve">{
+                            (high)<codeblock class="+ topic/pre pr-d/codeblock " id="unique_11_Connect_42_codeblock_lfs_llq_bfc" nd:nd-id="codeblock_lfs_llq_bfc" xml:space="preserve">{
   "title": "Finish API Documentation",
   "description": "Complete the POST /tasks section in the Task API doc.",
   "due_date": "2025-04-25T18:00:00Z",
@@ -416,7 +457,7 @@
                     <info class="- topic/itemgroup task/info ">
                         <ul class="- topic/ul ">
                             <li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">201 Created</codeph> – Task created
-                            successfully<codeblock class="+ topic/pre pr-d/codeblock " id="unique_10_Connect_42_codeblock_llb_plq_bfc" nd:nd-id="codeblock_llb_plq_bfc" xml:space="preserve">{
+                            successfully<codeblock class="+ topic/pre pr-d/codeblock " id="unique_11_Connect_42_codeblock_llb_plq_bfc" nd:nd-id="codeblock_llb_plq_bfc" xml:space="preserve">{
   "id": "a1b2c3d4e5",
   "title": "Finish API Documentation",
   "description": "Complete the POST /tasks section in the Task API doc.",
@@ -436,27 +477,28 @@
                 </p>
             </result>
     </taskbody>
-</task><reference class="- topic/topic       reference/reference " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="task_api_response_fields_dita" oid="task_api_response_fields_dita" specializations="@props/deliveryTarget">
+</task><reference class="- topic/topic       reference/reference " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="task_api_response_fields_dita" oid="task_api_response_fields_dita" specializations="@props/deliveryTarget">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">POST Task Response Fileds</ph></title>
     <refbody class="- topic/body        reference/refbody "><section class="- topic/section ">
         <table class="- topic/table " frame="all">
-            <tgroup class="- topic/tgroup " cols="3">
-                <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" xtrc="colspec:1;8:53" xtrf="file:/D:/Lija/Portfolio/Task%20API/task_api_response_fields_dita.dita"/>
-                <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" xtrc="colspec:2;9:53" xtrf="file:/D:/Lija/Portfolio/Task%20API/task_api_response_fields_dita.dita"/>
-                <colspec align="left" class="- topic/colspec " colname="col3" colnum="3" xtrc="colspec:3;10:53" xtrf="file:/D:/Lija/Portfolio/Task%20API/task_api_response_fields_dita.dita"/>
-                <thead class="- topic/thead ">
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Field</b></entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Type</b></entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Description</b></entry></row>
-                </thead>
-                <tbody class="- topic/tbody ">
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2">id</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2">string</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2">Unique identifier of the task</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3">title</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3">string</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3">Title of the task</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4">description</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4">string</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="4">Additional details about the task</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5">due_date</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5">string (ISO 8601)</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="5">Deadline for the task</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6">priority</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6">integer</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="6">Priority level from 1 (low) to 5 (high)</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7">status</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7">string</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="7">Current status (e.g., pending, completed)</entry></row>
-                    <row class="- topic/row "><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8">created_at</entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8">string (ISO 8601)</entry><entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="8">Timestamp when the task was created</entry></row>
-                </tbody>
-            </tgroup>
+            <tgroup class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" rowsep="1" xtrc="colspec:1;8:71" xtrf="file:/D:/Lija/Portfolio/Task%20API/task_api_response_fields_dita.dita" style="width:25%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="3*" xtrc="colspec:2;9:67" xtrf="file:/D:/Lija/Portfolio/Task%20API/task_api_response_fields_dita.dita" style="width:75%;"/>
+                    <thead class="- topic/thead ">
+                        <row class="- topic/row " rowsep="1"><entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Type</b></entry><entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1"><b class="+ topic/ph hi-d/b ">Description</b></entry></row>
+                    </thead>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="2" rowsep="1">string</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="2" rowsep="1">Unique identifier of the task</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="3" rowsep="1">string</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="3" rowsep="1">Title of the task</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="4" rowsep="1">string</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="4" rowsep="1">Additional details about the task</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="5" rowsep="1">string (ISO 8601)</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="5" rowsep="1">Deadline for the task</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="6" rowsep="1">integer</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="6" rowsep="1">Priority level from 1 (low) to 5
+                                (high)</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="7" rowsep="1">string</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="7" rowsep="1">Current status (e.g., pending,
+                                completed)</entry></row>
+                        <row class="- topic/row "><entry class="- topic/entry " colname="col1" colsep="1" dita-ot:x="1" dita-ot:y="8" rowsep="1">string (ISO 8601)</entry><entry class="- topic/entry " colname="col2" colsep="1" dita-ot:x="2" dita-ot:y="8" rowsep="1">Timestamp when the task was created</entry></row>
+                    </tbody>
+                </tgroup>
         </table>
     </section>
     </refbody>
